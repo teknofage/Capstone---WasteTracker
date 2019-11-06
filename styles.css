@@ -1,0 +1,20 @@
+body {
+    background: rgba(0, 255, 242, 0.495);
+
+}
+
+.snorkel {
+    background: magenta;
+
+}
+
+
+a.nav-item.nav-link {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+}
+
+carousel-item {
+
+
+}
