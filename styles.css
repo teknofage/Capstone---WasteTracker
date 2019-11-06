@@ -12,9 +12,21 @@ body {
 a.nav-item.nav-link {
     display: inline-block;
     padding: 0.25em 0.5em;
+    text: center-text !important;
 }
 
-carousel-item {
+.carousel-caption {
+    
 
+}
 
+.heading-font {
+    color: black !important;
+    text-shadow: darkolivegreen !important;
+    font-weight: bolder;
+    max-height: auto;
+}
+
+.container-2 {
+    padding: 0.25em
 }
