@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<h1>Create a WasteTracker Report Concerning the Company or Region Responsible: </h1>
+<form action='/fortune_results' method='GET'>
+    What is your global region?
+    <input list="regions" name="region"><br><br>
+
+    What local region are you reporting about?
+
+    <br><br>
+
+
+    Date of report: <input type="date" name="date of report"><br><br>
+
+    <datalist id="regions">
+        <option value="North America">
+        <option value="Central America">
+        <option value="South America">
+        <option value="Europe">
+        <option value="Africa">
+        <option value="West Asia">
+        <option value="East Asia">
+        <option value="Southeast Asia">
+        <option value="Oceania"> 
+        <option value="Other">
+
+    </datalist><br><br>
+
+        <div class='form-group'>
+                <label for='comment-content'>Plastic Waste Report</label><br>
+                <textarea class='form-control'
+                    id='comment-content'
+                    name='content'
+                    rows='20'
+                    placeholder='Your report...'></textarea>
+            </div>
+
+
+            <br><br>
+            <input type='submit' value='Submit!'>
+        </form>
+</body>
+</html>

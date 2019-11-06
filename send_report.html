@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+    <body>
+<h1>Send or Publicise a WasteTracker Plastic Waste Report</h1>
+    
+            <form action='/fortune_results' method='POST'><br><br>
+
+
+                <div class='form-group'>
+                        <label for='enter-report'>Plastic Waste Report</label><br>
+                        <textarea class='form-control'
+                            id='enter-report'
+                            name='report'
+                            rows='20'
+                            placeholder='Your report...'></textarea>
+                    </div>
+
+                    Which company do you want to report on?
+                    <input list="companies" name="companies">
+                
+                    <datalist id="companies">
+                        <option value="Coca-Cola">
+                        <option value="McDonalds">
+                        <option value="Amazon">
+                        <option value="Apple">
+                        <option value="Pepsi">
+                        <option value="Arrowhead">
+                        <option value="Evian">
+                        <option value="Other">
+                    </datalist><br><br>
+        
+            Which media outlets do you wish to share this report with?<br>
+            <input type="checkbox" name="bbc" value="BBC"> BBC<br>
+            <input type="checkbox" name="cnn" value="CNN"> CNN<br>
+            <input type="checkbox" name="nbc" value="NBC"> NBC<br>
+            <input type="checkbox" name="cbs" value="CBS"> CBS<br>
+            <input type="checkbox" name="al-jazeera" value="Al-Jazeera"> Al-Jazeera<br>
+            <input type="checkbox" name="npr" value="NPR"> NPR<br>
+            <br>
+
+            Which social media platorms do you wish to share this report with?<br>
+            <input type="checkbox" name="facebook" value="Facebook"> Facebook<br>
+            <input type="checkbox" name="instagram" value="Instagram"> Instagram<br>
+            <input type="checkbox" name="twitter" value="Twitter"> Twitter<br>
+            <input type="checkbox" name="pinterest" value="Pinterest"> Pinterest<br>
+            <input type="checkbox" name="medium" value="Medium"> Medium<br>
+            <input type="checkbox" name="reddit" value="Reddit"> Reddit<br>
+            <input type="checkbox" name="google+" value="Google+"> Google+<br>
+            <input type="checkbox" name="linkedin" value="Linkedin"> LinkedIn<br>
+            <br>
+        
+            <input type='submit' value='Submit!'>
+        
+            </form>
+        </body>
+</html>
