@@ -1,5 +1,5 @@
 body {
-    background: rgba(0, 255, 242, 0.495);
+    background: rgba(0, 255, 242, 0.495) !important;
 
 }
 
@@ -11,20 +11,22 @@ body {
 
 a.nav-item.nav-link {
     display: inline-block;
-    padding: 0.25em 0.5em;
+    padding: 0.5em;
     text: center-text !important;
 }
 
 .carousel-caption {
-    
-
+    bottom: 225px;
 }
 
 .heading-font {
     color: black !important;
     text-shadow: darkolivegreen !important;
-    font-weight: bolder;
-    max-height: auto;
+    font-weight: bold;
+    height: auto;
+    /* font-size:10vw !important; */
+    font-size: 2.5em;
+    text-shadow:0 0 20px rgba(0,255, 242, 0.5);
 }
 
 .container-2 {
